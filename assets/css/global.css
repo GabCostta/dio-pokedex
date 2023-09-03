@@ -1,0 +1,28 @@
+/* Define um estilo padrão para todos os elementos, incluindo a fonte e a modelagem da caixa */
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+/* Define o estilo do corpo da página */
+body {
+    background-color: #f6f8fc; /* Define a cor de fundo para um tom de cinza claro */
+}
+
+/* Define o estilo do elemento com a classe 'content' */
+.content {
+    width: 100vw; /* Define a largura para 100% da largura da janela de visualização */
+    height: 100vh; /* Define a altura para 100% da altura da janela de visualização */
+    padding: 1rem; /* Adiciona um espaçamento interno de 1 rem (unidade relativa) */
+    background-color: #fff; /* Define a cor de fundo para branco */
+}
+
+/* Define um estilo específico para a classe 'content' quando a largura da tela for maior ou igual a 992px */
+@media screen and (min-width: 992px) {
+    .content {
+        max-width: 992px; /* Define a largura máxima para 992px */
+        height: auto; /* A altura se ajustará automaticamente ao conteúdo */
+        margin: 1rem auto; /* Define margens superior e inferior de 1 rem e margens laterais automáticas para centralizar o conteúdo */
+        border-radius: 1rem; /* Adiciona um raio de borda de 1 rem para arredondar as bordas */
+    }
+}
