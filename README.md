@@ -6,7 +6,7 @@ Este projeto faz parte do Santander Bootcamp 2023 Java + Angular em parceria com
 
 ## Descrição do Projeto
 
-O objetivo deste projeto é criar uma aplicação web que utilize a PokeAPI para exibir informações sobre Pokémon. A aplicação permitirá aos usuários buscar informações sobre Pokémon, como seus tipos.
+O objetivo deste projeto é criar uma aplicação web que utilize a PokeAPI para exibir informações sobre Pokémon. A aplicação permitirá aos usuários visualizar informações sobre Pokémon, como seus tipos.
 
 ## Tecnologias Utilizadas
 
